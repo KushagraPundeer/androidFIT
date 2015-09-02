@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\classes-39cf9d8acdc17f9f1555d1eae6cd53b4d2b6ed89.jar" />
+    </item>
+    <item
+        jar="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\classes-25aa344203b06d65e163b891c7de71afebaebe09.jar" />
+    </item>
+    <item
+        jar="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\libs\temboo-android-sdk-core-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5798c43673fa072aa254ffc14d244ff467ba560f">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\temboo-android-sdk-core-2.7.1-425053d2f6d07b4ad888da72c01e492dc4c28ef3.jar" />
+    </item>
+    <item
+        jar="C:\Users\KUSHAGRA\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-30e1a426f69a946b84eaab0e65b830ed6bf0f167.jar" />
+    </item>
+    <item
+        jar="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\libs\Fitbit-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47b7a91bb3ac8b7e188b0b9ee0350f41cfc5d697">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\Fitbit-2.7.1-1204cbec674821523e04f94787118a2c71ed8493.jar" />
+    </item>
+    <item
+        jar="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\KUSHAGRA\Documents\DrexelFit_v2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ec4214e65e9f143130a07f51075bb1477400ac50.jar" />
+    </item>
+
+</items>

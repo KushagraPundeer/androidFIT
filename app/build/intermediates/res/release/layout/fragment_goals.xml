@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/goals_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/goals_user_weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/goals_user_points"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Body Fat: 10%"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/div"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/top"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/div"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Goals"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/goals_end_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Time Left: 7 days 0 hrs 0 m"
+            android:textSize="14sp"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/goals_first_goal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Burn 1000 Calories"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goals_first_goal_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress: 0/1000 calories"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/goals_second_goal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sleep 8hrs Daily"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goals_second_goal_progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress: 0/56 hrs"
+                android:textSize="14sp"
+                android:textStyle="italic|bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/KUSHAGRA/Documents/DrexelFit_v2/app/src/main/res/layout/fragment_goals.xml -->
